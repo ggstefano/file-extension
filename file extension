@@ -1,0 +1,10 @@
+print("Enter the file name-")
+file = input()
+d= file.find(".")
+ext = file[(d+1):]
+dict= {"py":"Python",
+       "c":"C programming",
+       "cpp":"C++",
+       "class":"Java source code"}
+x= dict[ext]
+print("It is a "+ x+ " file")
